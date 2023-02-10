@@ -1,0 +1,1164 @@
+{
+  "304-etag-update-response-Cache-Control": [
+    "Setup",
+    "Response 3 does not come from cache"
+  ],
+  "304-etag-update-response-Clear-Site-Data": [
+    "Setup",
+    "Response 3 does not come from cache"
+  ],
+  "304-etag-update-response-Content-Encoding": [
+    "Setup",
+    "Response 3 does not come from cache"
+  ],
+  "304-etag-update-response-Content-Foo": [
+    "Setup",
+    "Response 3 does not come from cache"
+  ],
+  "304-etag-update-response-Content-Length": [
+    "Assertion",
+    "Response 2 header Content-Length is \"10\", not \"36\""
+  ],
+  "304-etag-update-response-Content-Location": [
+    "Setup",
+    "Response 3 does not come from cache"
+  ],
+  "304-etag-update-response-Content-MD5": [
+    "Setup",
+    "Response 3 does not come from cache"
+  ],
+  "304-etag-update-response-Content-Range": [
+    "Setup",
+    "Response 3 does not come from cache"
+  ],
+  "304-etag-update-response-Content-Security-Policy": [
+    "Setup",
+    "Response 3 does not come from cache"
+  ],
+  "304-etag-update-response-Content-Type": [
+    "Setup",
+    "Response 3 does not come from cache"
+  ],
+  "304-etag-update-response-ETag": [
+    "Setup",
+    "Response 3 does not come from cache"
+  ],
+  "304-etag-update-response-Expires": [
+    "Setup",
+    "Response 3 does not come from cache"
+  ],
+  "304-etag-update-response-Public-Key-Pins": [
+    "Setup",
+    "Response 3 does not come from cache"
+  ],
+  "304-etag-update-response-Set-Cookie": [
+    "Setup",
+    "Response 3 does not come from cache"
+  ],
+  "304-etag-update-response-Set-Cookie2": [
+    "Setup",
+    "Response 3 does not come from cache"
+  ],
+  "304-etag-update-response-Test-Header": [
+    "Setup",
+    "Response 3 does not come from cache"
+  ],
+  "304-etag-update-response-X-Content-Foo": [
+    "Setup",
+    "Response 3 does not come from cache"
+  ],
+  "304-etag-update-response-X-Frame-Options": [
+    "Setup",
+    "Response 3 does not come from cache"
+  ],
+  "304-etag-update-response-X-Test-Header": [
+    "Setup",
+    "Response 3 does not come from cache"
+  ],
+  "304-etag-update-response-X-XSS-Protection": [
+    "Setup",
+    "Response 3 does not come from cache"
+  ],
+  "304-lm-use-stored-Test-Header": [
+    "Assertion",
+    "Response 2 header Test-Header is \"null\", not \"aaaaaaaaaaaaaaa\""
+  ],
+  "age-parse-dup-0": true,
+  "age-parse-dup-0-twoline": true,
+  "age-parse-dup-old": true,
+  "age-parse-float": true,
+  "age-parse-large": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "age-parse-large-minus-one": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "age-parse-larger": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "age-parse-negative": true,
+  "age-parse-nonnumeric": true,
+  "age-parse-numeric-parameter": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "age-parse-parameter": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "age-parse-prefix": true,
+  "age-parse-prefix-twoline": true,
+  "age-parse-suffix": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "age-parse-suffix-twoline": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "cc-resp-must-revalidate-fresh": [
+    "Setup",
+    "Response body is \"4a0a4c1c-3fec-4ac7-9a3a-f4ac12b18a6b05d-42e9-aef6-e8845bc07f9e\", not \"7c72f2dd-f05d-42e9-aef6-e8845bc07f9e\""
+  ],
+  "cc-resp-must-revalidate-stale": [
+    "Assertion",
+    "request 3 doesn't have if-none-match header"
+  ],
+  "cc-resp-no-cache": true,
+  "cc-resp-no-cache-case-insensitive": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "cc-resp-no-cache-revalidate": [
+    "Assertion",
+    "request 2 doesn't have if-none-match header"
+  ],
+  "cc-resp-no-cache-revalidate-fresh": [
+    "Assertion",
+    "request 2 doesn't have if-none-match header"
+  ],
+  "cc-resp-no-store": true,
+  "cc-resp-no-store-case-insensitive": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "cc-resp-no-store-fresh": true,
+  "cc-resp-no-store-old-max-age": [
+    "Setup",
+    "Response body is \"9488587d-2d2f-4cf3-89fb-2adad27f1d22ebae64de-5178-40d4-9116-687434a1207f\", not \"ebae64de-5178-40d4-9116-687434a1207f\""
+  ],
+  "cc-resp-no-store-old-new": true,
+  "cc-resp-private-shared": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "ccreq-ma0": true,
+  "ccreq-ma1": true,
+  "ccreq-magreaterage": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "ccreq-max-stale": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "ccreq-max-stale-age": [
+    "Setup",
+    "Response 1 header Age is \"null\", not \"2000\""
+  ],
+  "ccreq-min-fresh": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "ccreq-min-fresh-age": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "ccreq-no-cache": true,
+  "ccreq-no-cache-etag": [
+    "Assertion",
+    "Request 2 should have been conditional, but it was not."
+  ],
+  "ccreq-no-cache-lm": [
+    "Assertion",
+    "Request 2 should have been conditional, but it was not."
+  ],
+  "ccreq-no-store": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "ccreq-oic": [
+    "Assertion",
+    "Response 1 status is 200, not 504"
+  ],
+  "cdn-cc-invalid-sh-type-unknown": true,
+  "cdn-cc-invalid-sh-type-wrong": true,
+  "cdn-fresh-cc-nostore": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "cdn-max-age": true,
+  "cdn-max-age-0": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "cdn-max-age-0-expires": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "cdn-max-age-age": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "cdn-max-age-case-insensitive": true,
+  "cdn-max-age-cc-max-age-invalid-expires": true,
+  "cdn-max-age-expires": [
+    "Setup",
+    "Response body is \"699f4fde-6bc7-4969-a291-889af9f5c1727-91a1-0aafb650c44a\", not \"03fbdc3f-1bfa-41f7-91a1-0aafb650c44a\""
+  ],
+  "cdn-max-age-extension": true,
+  "cdn-max-age-long-cc-max-age": true,
+  "cdn-max-age-max": true,
+  "cdn-max-age-max-plus": true,
+  "cdn-max-age-short-cc-max-age": true,
+  "cdn-max-age-space-after-equals": true,
+  "cdn-max-age-space-before-equals": true,
+  "cdn-no-cache": true,
+  "cdn-no-store-cc-fresh": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "cdn-private": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "cdn-remove-header": true,
+  "conditional-304-etag": [
+    "Assertion",
+    "Response 2 status is 200, not 304"
+  ],
+  "conditional-etag-forward": true,
+  "conditional-etag-forward-unquoted": [
+    "Assertion",
+    "Request 1 header If-None-Match is \"abcdef\", not \"\"abcdef\"\""
+  ],
+  "conditional-etag-precedence": [
+    "Assertion",
+    "Response 2 status is 200, not 304"
+  ],
+  "conditional-etag-quoted-respond-unquoted": [
+    "Assertion",
+    "Response 2 status is 200, not 304"
+  ],
+  "conditional-etag-strong-generate": [
+    "Setup",
+    "Response body is \"101f99c2-8e18-416b-8dd9-97f5dc34f4e8ored-Ttl: 2m0s\r\n\r\nedb0f1b9-ed4c-4e16-bedf-5cff6f141d8d\", not \"edb0f1b9-ed4c-4e16-bedf-5cff6f141d8d\""
+  ],
+  "conditional-etag-strong-generate-unquoted": [
+    "Setup",
+    "Response body is \"dbc2f69c-b8b8-461e-a224-a0514c4aa68ced-Ttl: 2m0s\r\n\r\n700f9444-3d60-4552-ac58-dfbb78fbfb46\", not \"700f9444-3d60-4552-ac58-dfbb78fbfb46\""
+  ],
+  "conditional-etag-strong-respond": [
+    "Assertion",
+    "Response 2 status is 200, not 304"
+  ],
+  "conditional-etag-strong-respond-multiple-first": [
+    "Assertion",
+    "Response 2 status is 200, not 304"
+  ],
+  "conditional-etag-strong-respond-multiple-last": [
+    "Assertion",
+    "Response 2 status is 200, not 304"
+  ],
+  "conditional-etag-strong-respond-multiple-second": [
+    "Assertion",
+    "Response 2 status is 200, not 304"
+  ],
+  "conditional-etag-strong-respond-obs-text": [
+    "Assertion",
+    "Response 2 status is 200, not 304"
+  ],
+  "conditional-etag-unquoted-respond-quoted": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "conditional-etag-unquoted-respond-unquoted": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "conditional-etag-vary-headers": [
+    "Setup",
+    "Response body is \"b003b245-ade8-46b0-9431-2f322ea27d620cc49f\", not \"4e930fed-ce0d-44b8-93aa-1d7a9b0cc49f\""
+  ],
+  "conditional-etag-vary-headers-mismatch": true,
+  "conditional-etag-weak-generate-weak": [
+    "Setup",
+    "Response body is \"e905925f-04be-460a-8ee1-b9055c62e6f97210\", not \"7a35d09e-6ea6-4e2d-9f45-58b481397210\""
+  ],
+  "conditional-etag-weak-respond": [
+    "Assertion",
+    "Response 2 status is 200, not 304"
+  ],
+  "conditional-etag-weak-respond-backslash": [
+    "Assertion",
+    "Response 2 status is 200, not 304"
+  ],
+  "conditional-etag-weak-respond-lowercase": [
+    "Assertion",
+    "Response 2 status is 200, not 304"
+  ],
+  "conditional-etag-weak-respond-omit-slash": [
+    "Assertion",
+    "Response 2 status is 200, not 304"
+  ],
+  "conditional-lm-fresh": [
+    "Assertion",
+    "Response 2 status is 200, not 304"
+  ],
+  "conditional-lm-fresh-earlier": [
+    "Assertion",
+    "Response 2 status is 200, not 304"
+  ],
+  "conditional-lm-fresh-no-lm": [
+    "Setup",
+    "Response 2 does not come from cache"
+  ],
+  "conditional-lm-fresh-rfc850": [
+    "Assertion",
+    "Response 2 status is 200, not 304"
+  ],
+  "conditional-lm-stale": [
+    "Assertion",
+    "Response 2 status is 200, not 304"
+  ],
+  "freshness-expires-32bit": true,
+  "freshness-expires-age-fast-date": [
+    "Setup",
+    "Response body is \"07bec9db-72f7-418c-ac6e-3139d6bc6fed\r\n54dd5d37-f082-4ffa-8c42-b0dc2299cb85\", not \"54dd5d37-f082-4ffa-8c42-b0dc2299cb85\""
+  ],
+  "freshness-expires-age-slow-date": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "freshness-expires-ansi-c": true,
+  "freshness-expires-far-future": true,
+  "freshness-expires-future": true,
+  "freshness-expires-invalid": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "freshness-expires-invalid-1-digit-hour": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "freshness-expires-invalid-2-digit-year": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "freshness-expires-invalid-aest": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "freshness-expires-invalid-date": true,
+  "freshness-expires-invalid-date-dashes": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "freshness-expires-invalid-multiple-lines": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "freshness-expires-invalid-multiple-spaces": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "freshness-expires-invalid-no-comma": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "freshness-expires-invalid-time-periods": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "freshness-expires-invalid-utc": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "freshness-expires-old-date": [
+    "Setup",
+    "Response body is \"8683fe31-492b-4281-becb-5c0ef1691cb1\r\nbc87100c-3c3f-4f98-ad0c-18e8fb6242aa\", not \"bc87100c-3c3f-4f98-ad0c-18e8fb6242aa\""
+  ],
+  "freshness-expires-past": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "freshness-expires-present": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "freshness-expires-rfc850": [
+    "Setup",
+    "Response body is \"1c6d238a-5158-41b7-b456-01e18751a366f40\", not \"6cbfaff4-277b-4f5b-b3a8-898571958f40\""
+  ],
+  "freshness-expires-wrong-case-month": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "freshness-expires-wrong-case-tz": true,
+  "freshness-expires-wrong-case-weekday": true,
+  "freshness-max-age": true,
+  "freshness-max-age-0": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "freshness-max-age-0-expires": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "freshness-max-age-100a": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "freshness-max-age-a100": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "freshness-max-age-age": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "freshness-max-age-case-insenstive": true,
+  "freshness-max-age-date": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "freshness-max-age-decimal-five": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "freshness-max-age-decimal-zero": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "freshness-max-age-expires": true,
+  "freshness-max-age-expires-invalid": true,
+  "freshness-max-age-extension": true,
+  "freshness-max-age-ignore-quoted": true,
+  "freshness-max-age-ignore-quoted-rev": true,
+  "freshness-max-age-leading-zero": true,
+  "freshness-max-age-max": true,
+  "freshness-max-age-max-minus-1": true,
+  "freshness-max-age-max-plus": true,
+  "freshness-max-age-max-plus-1": true,
+  "freshness-max-age-negative": true,
+  "freshness-max-age-quoted": true,
+  "freshness-max-age-s-maxage-shared-longer": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "freshness-max-age-s-maxage-shared-longer-multiple": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "freshness-max-age-s-maxage-shared-longer-reversed": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "freshness-max-age-s-maxage-shared-shorter": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "freshness-max-age-s-maxage-shared-shorter-expires": true,
+  "freshness-max-age-single-quoted": true,
+  "freshness-max-age-space-after-equals": true,
+  "freshness-max-age-space-before-equals": true,
+  "freshness-max-age-two-fresh-stale-sameline": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "freshness-max-age-two-fresh-stale-sepline": true,
+  "freshness-max-age-two-stale-fresh-sameline": true,
+  "freshness-max-age-two-stale-fresh-sepline": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "freshness-none": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "freshness-s-maxage-shared": true,
+  "head-200-freshness-update": [
+    "Assertion",
+    "Response 3 does not come from cache"
+  ],
+  "head-200-retain": [
+    "Assertion",
+    "Response 2 header Template-A is \"null\", not \"1\""
+  ],
+  "head-200-update": [
+    "Setup",
+    "Response 3 does not come from cache"
+  ],
+  "head-410-update": [
+    "Setup",
+    "Response 2 status is 200, not 410"
+  ],
+  "head-writethrough": true,
+  "headers-omit-headers-listed-in-Cache-Control-no-cache": [
+    "Setup",
+    "Response 2 does not come from cache"
+  ],
+  "headers-omit-headers-listed-in-Cache-Control-no-cache-single": [
+    "Setup",
+    "Response 2 does not come from cache"
+  ],
+  "headers-omit-headers-listed-in-Connection": [
+    "Setup",
+    "Response 2 does not come from cache"
+  ],
+  "headers-store-Cache-Control": true,
+  "headers-store-Clear-Site-Data": true,
+  "headers-store-Connection": true,
+  "headers-store-Content-Encoding": [
+    "Assertion",
+    "Response 2 header Content-Encoding is \"null\", not \"apetixmbqfujync\""
+  ],
+  "headers-store-Content-Foo": [
+    "Setup",
+    "Response 2 does not come from cache"
+  ],
+  "headers-store-Content-Length": true,
+  "headers-store-Content-Location": [
+    "Setup",
+    "Response 2 does not come from cache"
+  ],
+  "headers-store-Content-MD5": [
+    "Setup",
+    "Response 2 does not come from cache"
+  ],
+  "headers-store-Content-Range": [
+    "Assertion",
+    "Response 2 header Content-Range is \"null\", not \"ananananananana\""
+  ],
+  "headers-store-Content-Security-Policy": [
+    "Setup",
+    "Response 2 does not come from cache"
+  ],
+  "headers-store-Content-Type": true,
+  "headers-store-ETag": true,
+  "headers-store-Expires": true,
+  "headers-store-Keep-Alive": true,
+  "headers-store-Proxy-Authenticate": true,
+  "headers-store-Proxy-Authentication-Info": true,
+  "headers-store-Proxy-Authorization": true,
+  "headers-store-Proxy-Connection": true,
+  "headers-store-Public-Key-Pins": true,
+  "headers-store-Set-Cookie": [
+    "Assertion",
+    "Response 2 header Set-Cookie is \"null\", not \"a=c\""
+  ],
+  "headers-store-Set-Cookie2": true,
+  "headers-store-TE": true,
+  "headers-store-Test-Header": true,
+  "headers-store-Transfer-Encoding": [
+    "Setup",
+    "Response 1 status is 502, not 200"
+  ],
+  "headers-store-Upgrade": true,
+  "headers-store-X-Content-Foo": true,
+  "headers-store-X-Frame-Options": [
+    "Assertion",
+    "Response 2 header X-Frame-Options is \"null\", not \"sameorigin\""
+  ],
+  "headers-store-X-Test-Header": [
+    "Assertion",
+    "Response 2 header X-Test-Header is \"null\", not \"abcdefghijklmno\""
+  ],
+  "headers-store-X-XSS-Protection": true,
+  "heuristic-200-cached": true,
+  "heuristic-201-not_cached": [
+    "Setup",
+    "Response 1 status is 200, not 201"
+  ],
+  "heuristic-202-not_cached": [
+    "Setup",
+    "Response 1 status is 200, not 202"
+  ],
+  "heuristic-203-cached": [
+    "Setup",
+    "Response 1 status is 200, not 203"
+  ],
+  "heuristic-204-cached": [
+    "Setup",
+    "Response 1 status is 200, not 204"
+  ],
+  "heuristic-403-not_cached": [
+    "Setup",
+    "Response 1 status is 200, not 403"
+  ],
+  "heuristic-404-cached": [
+    "Setup",
+    "Response 1 status is 200, not 404"
+  ],
+  "heuristic-405-cached": [
+    "Setup",
+    "Response 1 status is 200, not 405"
+  ],
+  "heuristic-410-cached": [
+    "Setup",
+    "Response 1 status is 200, not 410"
+  ],
+  "heuristic-414-cached": [
+    "Setup",
+    "Response 1 status is 200, not 414"
+  ],
+  "heuristic-501-cached": [
+    "Setup",
+    "Response 1 status is 200, not 501"
+  ],
+  "heuristic-502-not_cached": [
+    "Setup",
+    "Response 1 status is 200, not 502"
+  ],
+  "heuristic-503-not_cached": [
+    "Setup",
+    "Response 1 status is 200, not 503"
+  ],
+  "heuristic-504-not_cached": [
+    "Setup",
+    "Response 1 status is 200, not 504"
+  ],
+  "heuristic-599-cached": [
+    "Setup",
+    "Response 1 status is 200, not 599"
+  ],
+  "heuristic-599-not_cached": [
+    "Setup",
+    "Response 1 status is 200, not 599"
+  ],
+  "heuristic-delta-10": true,
+  "heuristic-delta-1200": [
+    "Setup",
+    "Response body is \"54dd5d37-f082-4ffa-8c42-b0dc2299cb854d7f3a\", not \"c19a7ec7-a79d-4ade-8f2d-24f81b4d7f3a\""
+  ],
+  "heuristic-delta-1800": true,
+  "heuristic-delta-30": [
+    "Setup",
+    "Response body is \"f6a127d2-a026-4ff3-8a17-fbf87379e50f01-45ecf4bee537\", not \"2bd0359c-8d06-40e1-be01-45ecf4bee537\""
+  ],
+  "heuristic-delta-300": [
+    "Setup",
+    "Response body is \"6448b403-86db-4280-97ad-57419fdfc83b49b32\", not \"d65970da-05f2-40f9-a04a-fda706249b32\""
+  ],
+  "heuristic-delta-3600": true,
+  "heuristic-delta-43200": [
+    "Setup",
+    "Response body is \"68af0305-7068-4fac-b2d8-23b2210f7d36b66d-064162baa32a\", not \"e4c04e97-db21-4c95-b66d-064162baa32a\""
+  ],
+  "heuristic-delta-5": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "heuristic-delta-60": [
+    "Setup",
+    "Response body is \"4a0a4c1c-3fec-4ac7-9a3a-f4ac12b18a6bbf5426f926f\", not \"b971e3cc-3ab9-4b31-a731-0bf5426f926f\""
+  ],
+  "heuristic-delta-600": true,
+  "heuristic-delta-86400": [
+    "Setup",
+    "Response body is \"facf253f-1b1b-44c5-901f-ddde1aa9627bb918-c0f168c7ed43\", not \"3232a13a-aa88-436b-b918-c0f168c7ed43\""
+  ],
+  "invalidate-DELETE": [
+    "Assertion",
+    "Response 3 comes from cache"
+  ],
+  "invalidate-DELETE-cl": true,
+  "invalidate-DELETE-failed": true,
+  "invalidate-DELETE-location": [
+    "Assertion",
+    "Response 3 comes from cache"
+  ],
+  "invalidate-M-SEARCH": [
+    "Assertion",
+    "Response 3 comes from cache"
+  ],
+  "invalidate-M-SEARCH-cl": [
+    "Assertion",
+    "Response 3 comes from cache"
+  ],
+  "invalidate-M-SEARCH-failed": [
+    "Setup",
+    "Response body is \"\", not \"84d980e6-964a-4aed-bbf7-52b04dc3f445\""
+  ],
+  "invalidate-M-SEARCH-location": [
+    "Assertion",
+    "Response 3 comes from cache"
+  ],
+  "invalidate-POST": [
+    "Assertion",
+    "Response 3 comes from cache"
+  ],
+  "invalidate-POST-cl": true,
+  "invalidate-POST-failed": [
+    "Setup",
+    "Response body is \"1b5049ff-e3f5-4013-ae19-c09395f85197: 2m0s\r\n\r\nf9afc286-ea29-4fd3-b5bc-4c2aa9e3c69e\", not \"f9afc286-ea29-4fd3-b5bc-4c2aa9e3c69e\""
+  ],
+  "invalidate-POST-location": [
+    "Assertion",
+    "Response 3 comes from cache"
+  ],
+  "invalidate-PUT": [
+    "Assertion",
+    "Response 3 comes from cache"
+  ],
+  "invalidate-PUT-cl": [
+    "Assertion",
+    "Response 3 comes from cache"
+  ],
+  "invalidate-PUT-failed": [
+    "Setup",
+    "Response body is \"8d52b274-9410-4659-8d62-8f60332ea13b0ba4c\", not \"26c0ee70-90ba-4628-846d-b00bce70ba4c\""
+  ],
+  "invalidate-PUT-location": [
+    "Assertion",
+    "Response 3 comes from cache"
+  ],
+  "method-POST": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "other-age-gen": [
+    "Setup",
+    "Response body is \"9488587d-2d2f-4cf3-89fb-2adad27f1d22\", not \"449f2289-701f-45c0-a050-027ec164f443\""
+  ],
+  "other-age-update-expires": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "other-age-update-max-age": [
+    "Assertion",
+    "Response 2 header Age is 4, should be bigger than 32"
+  ],
+  "other-authorization": true,
+  "other-authorization-must-revalidate": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "other-authorization-public": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "other-authorization-smaxage": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "other-cookie": true,
+  "other-date-update": true,
+  "other-fresh-content-disposition-attachment": [
+    "Setup",
+    "Response body is \"bb965d62-43ee-4366-82ca-baa435c0ba33tored-Ttl: 2m0s\r\n\r\n759ed814-b375-43c4-935e-d98ad538ab60\", not \"759ed814-b375-43c4-935e-d98ad538ab60\""
+  ],
+  "other-heuristic-content-disposition-attachment": [
+    "Setup",
+    "Response body is \"9f3fd0c7-4c9a-40f3-b9a3-637b3a156c36\r\nX-Souin-Stored-Ttl: 2m0s\r\n\r\n5510a609-f039-4c8f-8abd-1f502e3c4ec6\", not \"5510a609-f039-4c8f-8abd-1f502e3c4ec6\""
+  ],
+  "other-set-cookie": true,
+  "partial-store-complete-reuse-partial": [
+    "Assertion",
+    "Response 2 status is 200, not 206"
+  ],
+  "partial-store-complete-reuse-partial-no-last": [
+    "Assertion",
+    "Response 2 status is 200, not 206"
+  ],
+  "partial-store-complete-reuse-partial-suffix": [
+    "Assertion",
+    "Response 2 status is 200, not 206"
+  ],
+  "partial-store-partial-complete": [
+    "Setup",
+    "Response 1 status is 200, not 206"
+  ],
+  "partial-store-partial-reuse-partial": [
+    "Setup",
+    "Response 1 status is 200, not 206"
+  ],
+  "partial-store-partial-reuse-partial-absent": [
+    "Setup",
+    "Response 1 status is 200, not 206"
+  ],
+  "partial-store-partial-reuse-partial-byterange": [
+    "Setup",
+    "Response 1 status is 200, not 206"
+  ],
+  "partial-store-partial-reuse-partial-suffix": [
+    "Setup",
+    "Response 1 status is 200, not 206"
+  ],
+  "partial-use-headers": [
+    "Setup",
+    "Response 2 status is 200, not 206"
+  ],
+  "partial-use-stored-headers": [
+    "Setup",
+    "Response 2 status is 200, not 206"
+  ],
+  "pragma-request-extension": true,
+  "pragma-request-no-cache": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "pragma-response-extension": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "pragma-response-no-cache": [
+    "Setup",
+    "Response body is \"bc87100c-3c3f-4f98-ad0c-18e8fb6242aa39b862e\", not \"3450950d-e536-4d06-bf6f-6fe4339b862e\""
+  ],
+  "pragma-response-no-cache-heuristic": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "query-args-different": true,
+  "query-args-same": [
+    "Setup",
+    "Response body is \"6ea9c8e2-20dc-471f-b50e-d0584821ec92cc8d8525\", not \"0bd80d9f-475c-421d-a117-fdd1cc8d8525\""
+  ],
+  "stale-503": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "stale-close": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "stale-close-must-revalidate": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "stale-close-no-cache": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "stale-close-proxy-revalidate": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "stale-close-s-maxage=2": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "stale-sie-503": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "stale-sie-close": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "stale-warning-become": [
+    "Setup",
+    "Response 2 does not come from cache"
+  ],
+  "stale-warning-stored": [
+    "Assertion",
+    "Response 2 warning header not present."
+  ],
+  "status-200-fresh": true,
+  "status-200-must-understand": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "status-200-stale": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "status-203-fresh": [
+    "Setup",
+    "Response 1 status is 200, not 203"
+  ],
+  "status-203-stale": [
+    "Setup",
+    "Response 1 status is 200, not 203"
+  ],
+  "status-204-fresh": [
+    "Setup",
+    "Response 1 status is 200, not 204"
+  ],
+  "status-204-stale": [
+    "Setup",
+    "Response 1 status is 200, not 204"
+  ],
+  "status-299-fresh": [
+    "Setup",
+    "Response 1 status is 200, not 299"
+  ],
+  "status-299-stale": [
+    "Setup",
+    "Response 1 status is 200, not 299"
+  ],
+  "status-301-fresh": [
+    "Setup",
+    "Response 1 status is 200, not 301"
+  ],
+  "status-301-stale": [
+    "Setup",
+    "Response 1 status is 200, not 301"
+  ],
+  "status-302-fresh": [
+    "Setup",
+    "Response 1 status is 200, not 302"
+  ],
+  "status-302-stale": [
+    "Setup",
+    "Response 1 status is 200, not 302"
+  ],
+  "status-303-fresh": [
+    "Setup",
+    "Response 1 status is 200, not 303"
+  ],
+  "status-303-stale": [
+    "Setup",
+    "Response 1 status is 200, not 303"
+  ],
+  "status-307-fresh": [
+    "Setup",
+    "Response 1 status is 200, not 307"
+  ],
+  "status-307-stale": [
+    "Setup",
+    "Response 1 status is 200, not 307"
+  ],
+  "status-308-fresh": [
+    "Setup",
+    "Response 1 status is 200, not 308"
+  ],
+  "status-308-stale": [
+    "Setup",
+    "Response 1 status is 200, not 308"
+  ],
+  "status-400-fresh": [
+    "Setup",
+    "Response 1 status is 200, not 400"
+  ],
+  "status-400-stale": [
+    "Setup",
+    "Response 1 status is 200, not 400"
+  ],
+  "status-404-fresh": [
+    "Setup",
+    "Response 1 status is 200, not 404"
+  ],
+  "status-404-stale": [
+    "Setup",
+    "Response 1 status is 200, not 404"
+  ],
+  "status-410-fresh": [
+    "Setup",
+    "Response 1 status is 200, not 410"
+  ],
+  "status-410-stale": [
+    "Setup",
+    "Response 1 status is 200, not 410"
+  ],
+  "status-499-fresh": [
+    "Setup",
+    "Response 1 status is 200, not 499"
+  ],
+  "status-499-stale": [
+    "Setup",
+    "Response 1 status is 200, not 499"
+  ],
+  "status-500-fresh": [
+    "Setup",
+    "Response 1 status is 200, not 500"
+  ],
+  "status-500-stale": [
+    "Setup",
+    "Response 1 status is 200, not 500"
+  ],
+  "status-502-fresh": [
+    "Setup",
+    "Response 1 status is 200, not 502"
+  ],
+  "status-502-stale": [
+    "Setup",
+    "Response 1 status is 200, not 502"
+  ],
+  "status-503-fresh": [
+    "Setup",
+    "Response 1 status is 200, not 503"
+  ],
+  "status-503-stale": [
+    "Setup",
+    "Response 1 status is 200, not 503"
+  ],
+  "status-504-fresh": [
+    "Setup",
+    "Response 1 status is 200, not 504"
+  ],
+  "status-504-stale": [
+    "Setup",
+    "Response 1 status is 200, not 504"
+  ],
+  "status-599-fresh": [
+    "Setup",
+    "Response 1 status is 200, not 599"
+  ],
+  "status-599-must-understand": [
+    "Setup",
+    "Response 1 status is 200, not 599"
+  ],
+  "status-599-stale": [
+    "Setup",
+    "Response 1 status is 200, not 599"
+  ],
+  "surrogate-append-capabilities": [
+    "Assertion",
+    "Request 1 Surrogate-Capability header not present."
+  ],
+  "surrogate-fresh-cc-nostore": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "surrogate-max-age": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "surrogate-max-age-0": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "surrogate-max-age-0-expires": [
+    "Setup",
+    "Response body is \"cb355d8b-d729-4a0d-8cd6-5f083a5e1f42=0\r\nX-Souin-Stored-Ttl: 2m0s\r\n\r\n87f82646-45a8-4d82-a22b-3cb5fe7613e0\", not \"87f82646-45a8-4d82-a22b-3cb5fe7613e0\""
+  ],
+  "surrogate-max-age-age": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "surrogate-max-age-case-insensitive": [
+    "Setup",
+    "Response body is \"68af0305-7068-4fac-b2d8-23b2210f7d36485c\", not \"0cf73823-92ed-4557-b8c2-d7a96348485c\""
+  ],
+  "surrogate-max-age-cc-max-age-invalid-expires": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "surrogate-max-age-expires": [
+    "Setup",
+    "Response body is \"aaaaaaaaaaaaaaabb-0d26-4b4a-8ab2-d56cba48860b\", not \"36099cbb-0d26-4b4a-8ab2-d56cba48860b\""
+  ],
+  "surrogate-max-age-extension": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "surrogate-max-age-long-cc-max-age": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "surrogate-max-age-max": true,
+  "surrogate-max-age-max-plus": true,
+  "surrogate-max-age-me-target": true,
+  "surrogate-max-age-other-target": [
+    "Setup",
+    "Response body is \"6756f8df-548a-4ba7-aa96-5276acdae9a5m0s\r\n\r\n0b029f67-9423-41b9-b963-11743b25478c\", not \"0b029f67-9423-41b9-b963-11743b25478c\""
+  ],
+  "surrogate-max-age-short-cc-max-age": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "surrogate-max-age-space-after-equals": true,
+  "surrogate-max-age-space-before-equals": true,
+  "surrogate-no-store": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "surrogate-no-store-cc-fresh": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "surrogate-remove-header": true,
+  "vary-2-match": true,
+  "vary-2-match-omit": true,
+  "vary-2-no-match": true,
+  "vary-3-match": [
+    "Setup",
+    "Response body is \"4a91a65b-5388-455c-a9d9-0fb63738adbar, Baz\r\nX-Souin-Stored-Ttl: 2m0s\r\n\r\ne48bd800-f6a7-49ef-af90-384ef002e3a3\", not \"e48bd800-f6a7-49ef-af90-384ef002e3a3\""
+  ],
+  "vary-3-no-match": true,
+  "vary-3-omit": true,
+  "vary-3-order": true,
+  "vary-cache-key": true,
+  "vary-invalidate": [
+    "Setup",
+    "Response body is \"\", not \"aaaaaaaaaaaaaaa\""
+  ],
+  "vary-match": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "vary-no-match": true,
+  "vary-normalise-combine": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "vary-normalise-lang-case": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "vary-normalise-lang-order": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "vary-normalise-lang-select": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "vary-normalise-lang-space": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "vary-normalise-space": [
+    "Assertion",
+    "Response 2 does not come from cache"
+  ],
+  "vary-omit": true,
+  "vary-omit-stored": true,
+  "vary-star": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "vary-syntax-empty-star": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "vary-syntax-empty-star-lines": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "vary-syntax-foo-star": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "vary-syntax-star": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "vary-syntax-star-foo": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "vary-syntax-star-star": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ],
+  "vary-syntax-star-star-lines": [
+    "Assertion",
+    "Response 2 comes from cache"
+  ]
+}

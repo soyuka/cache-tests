@@ -67,5 +67,12 @@ export default [
     type: 'cdn',
     version: '18-10-2021',
     link: 'https://github.com/http-tests/cache-tests/wiki/Fastly'
+  },
+  {
+    file: 'souin.json',
+    name: 'Souin',
+    type: 'rev-proxy',
+    version: '10-02-2021',
+    link: 'https://github.com/http-tests/cache-tests/wiki/Souin'
   }
 ]
